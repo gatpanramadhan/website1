@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GAMING WEB</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Gammers</a>
+      <ul class="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Games</a></li>
+        <li><a href="#">Tournaments</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <div class="action">
+        <div class="searchBx">
+          <a href="#"><i class="bx bx-search"></i></a>
+          <input type="text" placeholder="Search Games" />
+        </div>
+      </div>
+      <div class="toggleMenu"></div>
+    </header>
+
+    <div class="banner">
+      <div class="bg">
+        <div class="content">
+          <h2>
+            New Home For<br />
+            Gammers
+          </h2>
+          <p>Best Gaming Website</p>
+          <a href="#" class="btn">Get Started</a>
+        </div>
+        <img src="dota3.png" />
+      </div>
+    </div>
+
+    <div class="about">
+      <div class="contentBx">
+        <h2>About Us</h2>
+        <p>
+          Gaming is a form of electronic entertainment that involves competition
+          or skill. Gaming is typically played by two or more
+        </p>
+        <a href="#">Read More</a>
+      </div>
+      <img src="gamepad.png" style="width: 450px" />
+    </div>
+
+    <div class="games">
+      <h2>Populer Games</h2>
+      <ul>
+        <li class="list active">ALL</li>
+        <li class="list">PC GAMES</li>
+        <li class="list">MOBILE GAMES</li>
+      </ul>
+
+      <div class="cardBx">
+        <div class="card" data-items="pc">
+          <img src="pc1.jpg" alt="" />
+          <div class="content">
+            <h4>Forza Horizon 5</h4>
+            <div class="progress-line"><span></span></div>
+            <div class="info">
+              <p>Price<br /><span>Rp.589.500 </span></p>
+              <a href="#">Get It Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-items="pc">
+          <img src="pc2.jpeg" alt="" />
+          <div class="content">
+            <h4>Mortal Kombat 11</h4>
+            <div class="progress-line"><span></span></div>
+            <div class="info">
+              <p>Price<br /><span>Rp.315.000 </span></p>
+              <a href="#">Get It Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-items="pc">
+          <img src="pc3.jpg" alt="" />
+          <div class="content">
+            <h4>Injustice™ 2</h4>
+            <div class="progress-line"><span></span></div>
+            <div class="info">
+              <p>Price<br /><span>Rp.250.500 </span></p>
+              <a href="#">Get It Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-items="pc">
+          <img src="pc4.jpeg" alt="" />
+          <div class="content">
+            <h4>The Witcher 3: Wild Hunt</h4>
+            <div class="progress-line"><span></span></div>
+            <div class="info">
+              <p>Price<br /><span>Rp.112.250 </span></p>
+              <a href="#">Get It Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-items="pc">
+          <img src="pc5.jpeg" alt="" />
+          <div class="content">
+            <h4>The Witcher 3: Wild Hunt</h4>
+            <div class="progress-line"><span></span></div>
+            <div class="info">
+              <p>Price<br /><span>Rp.112.250 </span></p>
+              <a href="#">Get It Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-items="mobile">
+          <img src="mb1.webp" alt="" />
+          <div class="content">
+            <h4>The Witcher 3: Wild Hunt</h4>
+            <div class="progress-line"><span></span></div>
+            <div class="info">
+              <p>Price<br /><span>Rp.112.250 </span></p>
+              <a href="#">Get It Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-items="mobile">
+          <img src="mb2.jpeg" alt="" />
+          <div class="content">
+            <h4>The Witcher 3: Wild Hunt</h4>
+            <div class="progress-line"><span></span></div>
+            <div class="info">
+              <p>Price<br /><span>Rp.112.250 </span></p>
+              <a href="#">Get It Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-items="mobile">
+          <img src="mb3.jpg" alt="" />
+          <div class="content">
+            <h4>The Witcher 3: Wild Hunt</h4>
+            <div class="progress-line"><span></span></div>
+            <div class="info">
+              <p>Price<br /><span>Rp.112.250 </span></p>
+              <a href="#">Get It Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-items="mobile">
+          <img src="mb4.jpeg" alt="" />
+          <div class="content">
+            <h4>The Witcher 3: Wild Hunt</h4>
+            <div class="progress-line"><span></span></div>
+            <div class="info">
+              <p>Price<br /><span>Rp.112.250 </span></p>
+              <a href="#">Get It Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      window.addEventListener("scroll", function () {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+    </script>
+  </body>
+</html>
